@@ -7,11 +7,20 @@
     <style>
             .nav ul {
       list-style: none;
-      background-color: #555;
+      
       text-align: center;
       padding: 0;
       margin: 0;
       
+    }
+    table{
+        margin-top: 100px;
+        margin-left: 400px;
+    }
+    
+    #saveexam{
+        margin-top: 20px;
+        margin-left: 70px;
     }
 
 
@@ -49,7 +58,7 @@ else
       
       <tr><td>Exam Name</td><td><input typw="text" name="exam_name" id="exam_name"></td></tr>
       <tr><td>Exam Description</td><td><textarea typw="text" name="exam_desc" id="exam_desc"></textarea></td></tr>
-      <tr><td><input type="submit" value="SaveExam"></td></tr>
+      <tr><td><input type="submit" value="SaveExam" id="saveexam"></td></tr>
       
       
   </table>

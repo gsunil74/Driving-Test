@@ -7,7 +7,7 @@
     <style>
             .nav ul {
       list-style: none;
-      background-color: #555;
+     
       text-align: center;
       padding: 0;
       margin: 0;

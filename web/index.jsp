@@ -128,7 +128,7 @@ select
                 <input type="radio" name="user_type" value="user"><b>User</b></p>
                 <p><label><b>User Name</b></label><input type="text" name="uname"  required></p>
                 <p><label><b>Password  </b></label><input type="password" name="pass"  required></p>
-		<p><a href="#">Forgot Password?</a></p>
+		
 		<p><input type="submit" value="Login"></p>
                 <p><input type="reset" value="reset"></p>
                 <p><a href="reg.jsp">New User Registration?</a></p>
