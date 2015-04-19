@@ -4,20 +4,28 @@
     Author     : c0631942
 --%>
 <head>
-    <style>
-            .nav ul {
-      list-style: none;
-     
-      text-align: center;
-      padding: 0;
-      margin: 0;
-      
-    }
+<style>
+ul#menu {
+    padding: 0;
+    margin-left: 50px;
+}
+
+ul#menu li {
+    display: inline;
+    
+}
+
+ul#menu li a {
+    background-color: #008dde;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
 
 
-        
-        
-    </style>
+
+</style>
     
 </head>
 
@@ -33,10 +41,10 @@ else
 {
 %>
 
-<div style="border: solid black;width: 70%;height: 300px;margin-left: 15%">
+<div style="border: solid black;width: 30%;height: 300px;margin-left: 15%">
     Welcome <%=session.getAttribute("userid")%>
   <div class="nav">
-      <ul>
+      <ul id="menu">
         <li><a href="addexam.jsp">Add Exam</a></li>
         <li><a href="addquestions.jsp">Add Questions</a></li>
         <li class="about"><a href="logout.jsp">Logout</a></li>
@@ -49,10 +57,10 @@ else
     
     
 </div>
-   
-    
+     
     
     
 <%
 }
 %>
+

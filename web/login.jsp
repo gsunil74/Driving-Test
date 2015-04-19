@@ -30,6 +30,6 @@
     }
     else 
     {
-        out.println("Invalid password <a href='index_1.jsp'>try again</a>");
+        out.println("Invalid username or password <a href='index_1.jsp'>Try Again</a>");
     }
 %>

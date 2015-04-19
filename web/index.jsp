@@ -131,7 +131,7 @@ select
 		
 		<p><input type="submit" value="Login"></p>
                 <p><input type="reset" value="reset"></p>
-                <p><a href="reg.jsp">New User Registration?</a></p>
+                <p><a href="reg.jsp">New User..?Register here?</a></p>
             </fieldset>
 	</form>
     </div>
